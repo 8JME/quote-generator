@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div class="quote-container" id="qoute-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left">
+                <span id="quote">
+                    Ask not what your country can do for you, ask what you can do for your country
+                </span>
+            </i>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">John F. Kenedy</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
 </body>
 </html>
